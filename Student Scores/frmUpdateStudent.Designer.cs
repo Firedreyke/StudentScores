@@ -86,7 +86,7 @@
             this.btnAdd.Location = new System.Drawing.Point(371, 52);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(99, 23);
+            this.btnAdd.Size = new System.Drawing.Size(99, 34);
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "&Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -96,7 +96,7 @@
             this.btnUpdate.Location = new System.Drawing.Point(371, 91);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(99, 23);
+            this.btnUpdate.Size = new System.Drawing.Size(99, 34);
             this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "&Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -106,7 +106,7 @@
             this.btnRemove.Location = new System.Drawing.Point(371, 130);
             this.btnRemove.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(99, 23);
+            this.btnRemove.Size = new System.Drawing.Size(99, 34);
             this.btnRemove.TabIndex = 6;
             this.btnRemove.Text = "&Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
@@ -116,17 +116,17 @@
             this.btnClearScores.Location = new System.Drawing.Point(371, 168);
             this.btnClearScores.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearScores.Name = "btnClearScores";
-            this.btnClearScores.Size = new System.Drawing.Size(99, 23);
+            this.btnClearScores.Size = new System.Drawing.Size(99, 34);
             this.btnClearScores.TabIndex = 7;
             this.btnClearScores.Text = "Clear &Scores";
             this.btnClearScores.UseVisualStyleBackColor = true;
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(255, 208);
+            this.btnOK.Location = new System.Drawing.Point(255, 211);
             this.btnOK.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(99, 23);
+            this.btnOK.Size = new System.Drawing.Size(99, 31);
             this.btnOK.TabIndex = 8;
             this.btnOK.Text = "&OK";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -134,10 +134,10 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(371, 208);
+            this.btnCancel.Location = new System.Drawing.Point(371, 211);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(99, 23);
+            this.btnCancel.Size = new System.Drawing.Size(99, 31);
             this.btnCancel.TabIndex = 9;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -148,7 +148,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(483, 243);
+            this.ClientSize = new System.Drawing.Size(482, 254);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnClearScores);

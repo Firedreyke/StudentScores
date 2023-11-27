@@ -16,5 +16,10 @@ namespace StudentScores
         {
             InitializeComponent();
         }
+
+        private void frmStudentScores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
