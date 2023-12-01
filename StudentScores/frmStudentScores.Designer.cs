@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.lstStudents = new System.Windows.Forms.ListBox();
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnAddNew = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -59,15 +59,17 @@
             this.lstStudents.Name = "lstStudents";
             this.lstStudents.Size = new System.Drawing.Size(395, 116);
             this.lstStudents.TabIndex = 1;
+            this.lstStudents.SelectedIndexChanged += new System.EventHandler(this.lstStudents_SelectedIndexChanged);
             // 
-            // btnAdd
+            // btnAddNew
             // 
-            this.btnAdd.Location = new System.Drawing.Point(438, 49);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(107, 35);
-            this.btnAdd.TabIndex = 2;
-            this.btnAdd.Text = "&Add New";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAddNew.Location = new System.Drawing.Point(438, 49);
+            this.btnAddNew.Name = "btnAddNew";
+            this.btnAddNew.Size = new System.Drawing.Size(107, 35);
+            this.btnAddNew.TabIndex = 2;
+            this.btnAddNew.Text = "&Add New";
+            this.btnAddNew.UseVisualStyleBackColor = true;
+            this.btnAddNew.Click += new System.EventHandler(this.btnAddNew_Click);
             // 
             // btnUpdate
             // 
@@ -77,6 +79,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "&Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -86,6 +89,7 @@
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "&Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // label2
             // 
@@ -106,7 +110,6 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Score count:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-
             // 
             // label4
             // 
@@ -117,7 +120,6 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Average:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-
             // 
             // lblScoreTotal
             // 
@@ -126,7 +128,6 @@
             this.lblScoreTotal.Name = "lblScoreTotal";
             this.lblScoreTotal.Size = new System.Drawing.Size(52, 26);
             this.lblScoreTotal.TabIndex = 8;
-           
             // 
             // lblScoreCount
             // 
@@ -152,6 +153,7 @@
             this.btnExit.TabIndex = 11;
             this.btnExit.Text = "&Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmStudentScores
             // 
@@ -167,7 +169,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.btnAddNew);
             this.Controls.Add(this.lstStudents);
             this.Controls.Add(this.label1);
             this.Name = "frmStudentScores";
@@ -182,7 +184,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox lstStudents;
-        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnAddNew;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label label2;

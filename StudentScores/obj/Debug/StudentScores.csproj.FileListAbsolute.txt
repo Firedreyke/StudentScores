@@ -1,0 +1,13 @@
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\bin\Debug\StudentScores.exe.config
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\bin\Debug\StudentScores.exe
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\bin\Debug\StudentScores.pdb
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.csproj.AssemblyReference.cache
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.frmAddNewStudent.resources
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.frmAddUpdateScore.resources
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.frmStudentScores.resources
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.frmUpdateStudent.resources
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.Properties.Resources.resources
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.csproj.GenerateResource.cache
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.csproj.CoreCompileInputs.cache
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.exe
+E:\ACC 2023 Fall\CIS 359 - Adv Programming C#\Homework 4\StudentScores\StudentScores\StudentScores\obj\Debug\StudentScores.pdb

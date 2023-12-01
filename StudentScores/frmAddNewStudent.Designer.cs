@@ -105,6 +105,7 @@
             this.btnAdd.TabIndex = 6;
             this.btnAdd.Text = "&Add Score";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnClear
             // 
@@ -115,6 +116,7 @@
             this.btnClear.TabIndex = 7;
             this.btnClear.Text = "Clear &Scores";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnCancel
             // 
@@ -126,6 +128,7 @@
             this.btnCancel.TabIndex = 8;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnOK
             // 
@@ -137,8 +140,9 @@
             this.btnOK.TabIndex = 9;
             this.btnOK.Text = "&OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
-            // Form1
+            // frmAddNewStudent
             // 
             this.AcceptButton = this.btnOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -155,7 +159,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frmAddNewStudent";
             this.Text = "Add New Student";
             this.ResumeLayout(false);
             this.PerformLayout();
